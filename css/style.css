@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,700&display=swap');
+
+
+/**RESET**/ 
+*{    font-family: "EB Garamond", serif; 
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;}
+
+.texto-azul{
+    color: #1C3656;
+}
