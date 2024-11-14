@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 /**RESET**/ 
@@ -11,6 +11,54 @@
     border: 0;
     box-sizing: border-box;}
 
+#font-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .texto-azul{
     color: #1C3656;
+}
+.texto-blanco{
+    color: white;
+}
+
+/* *NAVBAR* */
+.navbar-menu{
+    display: flex;
+    flex-direction: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: none;
+    color: white;
+    background-color: #FFFFFF;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #343E63;
+    border-radius: 12px;
+}
+ul{list-style: none;}
+/* *FIN NAVBAR* */
+
+section{
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 23px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 25px;
+        font-weight: 400;}
+}
+
+button{
+    background-color:  #1C3656;
 }
